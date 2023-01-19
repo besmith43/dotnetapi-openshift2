@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S2+hyu7MrFtmm0Pa20tr15g3L4iuGZcaSRYLYRK3nBcJ134jWl0hAIxcCpqSalWxLsdh1MRVEGXQ5iAOGFRxtA==",
+  "dgSpecHash": "YBFEqWkCdteHuqrAkmDVkNbwAZjVA9OAJU8Rz4hFR3U122iHgKrIfCeI/Yet0f9yY3T3VmCfEFaMgEGOh8uGIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\blakesmith\\Temp\\docker-compose-example\\api\\api\\api.csproj",
+  "projectFilePath": "/Users/besmith/Dev/dotnetapi-openshift2/api.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
