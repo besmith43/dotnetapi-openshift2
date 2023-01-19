@@ -4,9 +4,9 @@ var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
 app.MapGet("/", () => {
-	using HttpResponseMessage response = new HttpClient().GetAsync("http://localhost:5000/api").Result;
+	using HttpResponseMessage response = new HttpClient().GetAsync("http://dotnetapi-openshift-git.demo:5000/api").Result;
 
-	return $"Hello World from C# on { System.Net.Dns.GetHostEntry(string.Empty).HostName }\napi version 1.0";
+	return $"Hello World from C# on { System.Net.Dns.GetHostEntry(string.Empty).HostName }\napi version 1.0\n{ response }";
 	});
 
 app.Run();
